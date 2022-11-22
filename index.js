@@ -1,10 +1,5 @@
 var main = document.getElementById("main");
 
-
-
-
- var linebreak = document.createElement("br");
-
 for (let i = 99; i > 2; i--) {
   var text = document.createTextNode(i + " bottles of beer on the wall, " + i + " bottles of beer.");  
   main.appendChild(text);
